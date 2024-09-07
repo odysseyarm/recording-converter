@@ -1,0 +1,9 @@
+[package]
+name = "recording-converter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ats_usb_master = { package = "ats_usb", git = "file:///home/matthew/radiosity/vision-module-gui", branch = "master" }
+ats_usb_old = { package = "ats_usb", git = "file:///home/matthew/radiosity/vision-module-gui", rev = "797c9a7dc79b69c049c010999c383f25c7fbcf1a" }
+ats_playback_old = { package = "ats_playback", git = "file:///home/matthew/radiosity/vision-module-gui", rev = "797c9a7dc79b69c049c010999c383f25c7fbcf1a" }
